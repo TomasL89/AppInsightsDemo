@@ -15,6 +15,14 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
+- task: AzurePowerShell@5
+  inputs:
+    azureSubscription: 'script-connection'
+    ScriptType: 'FilePath'
+    ScriptPath: './Deploy-AzTemplate.ps1'
+    ScriptArguments: -Location 'centralus' -ResourceGroupName 'demogroup' -TemplateFile templates\mainTemplate.json
+    azurePowerShellVersion: 'LatestVersion'
+
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
