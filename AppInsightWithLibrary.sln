@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{7B548EF4-661C-478F-8434-4793A4DFD2DC}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{7B548EF4-661C-478F-8434-4793A4DFD2DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApi", "DemoApi\DemoApi.csproj", "{78421675-7423-4675-BE9C-C59830C27B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoApi", "DemoApi\DemoApi.csproj", "{78421675-7423-4675-BE9C-C59830C27B40}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AppDeploymentWithInsights", "AppDeploymentWithInsights\AppDeploymentWithInsights.deployproj", "{A62A2A9F-AF36-4224-B0DE-735CD1EDB754}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,15 @@ Global
 		{78421675-7423-4675-BE9C-C59830C27B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78421675-7423-4675-BE9C-C59830C27B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78421675-7423-4675-BE9C-C59830C27B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62A2A9F-AF36-4224-B0DE-735CD1EDB754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62A2A9F-AF36-4224-B0DE-735CD1EDB754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62A2A9F-AF36-4224-B0DE-735CD1EDB754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62A2A9F-AF36-4224-B0DE-735CD1EDB754}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C7A6FD8-4793-43DD-BE00-F2E4CF53F411}
 	EndGlobalSection
 EndGlobal
